@@ -1,7 +1,7 @@
 # Configure Subnet
 resource "aws_subnet" "main" {
-  vpc_id     = aws_vpc.main.id
-  cidr_block = "172.120.100.0/24"
+  vpc_id     = aws_vpc.myvpc1.id
+  cidr_block = "10.0.0.0/16"
 
   tags = {
     Name = "Main"
