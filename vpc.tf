@@ -1,9 +1,10 @@
-# Configure the AWS VPC
-resource "aws_vpc" "main" {
-  cidr_block       = "172.120.100.0/16"
-  instance_tenancy = "default"
+# Create a VPC
+resource "aws_vpc" "myvpc1" {
+  cidr_block =  var.vpc_cidr
 
-  tags = {
-    Name = "my-vpc1"
+ tags = {
+    Name = var.vpc_name
+    Project = var.vpc_project
+    Owner   = var.vpc_owner
   }
 }
