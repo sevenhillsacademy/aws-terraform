@@ -24,9 +24,9 @@ variable "vpc_owner" {
 }
 
 variable "access_key" {
-  default = "AKIAWDQ47ASP2TON35P5"
+  default = "XXXX"
 }
 
 variable "secret_key" {
-  default = "+5oKSV2ctZDISIV8mS3THdgvC8biqzj66hY6b5n3"
+  default = "XXX"
 }
