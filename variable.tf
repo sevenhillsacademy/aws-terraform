@@ -12,7 +12,7 @@ variable "vpc_cidr" {
 }
 
 variable "vpc_name" {
-  default = "myvpc"
+  default = "myvpc1"
 }
 
 variable "vpc_project" {
